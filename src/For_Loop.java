@@ -15,7 +15,6 @@ public class For_Loop {
     }
 
     public void numPrint(){
-//        String [] names = {"Rasel", "Momtaz", "Monir", "Monju"};
         for (int x =0; x<=10; x++){
             System.out.println("Array name is: "+x+",");
         }
