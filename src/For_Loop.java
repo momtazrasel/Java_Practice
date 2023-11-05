@@ -1,3 +1,5 @@
+
+
 public class For_Loop {
 
     public void numberPrint(){
@@ -31,6 +33,7 @@ public class For_Loop {
         for (int y : num){
             System.out.println("Array name is: "+y+",");
         }
+
     }
 
     public static void main(String[] args) {
