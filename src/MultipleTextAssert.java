@@ -1,5 +1,6 @@
 public class MultipleTextAssert {
     public static void main(String[] args) {
+        /***
         // Set the path to the ChromeDriver executable
         System.setProperty("webdriver.chrome.driver", "path/to/chromedriver.exe");
 
@@ -34,5 +35,6 @@ public class MultipleTextAssert {
 
         // Close the browser
         driver.quit();
+         ***/
     }
 }
