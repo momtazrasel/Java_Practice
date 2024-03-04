@@ -12,6 +12,10 @@ public class Amarican_Flag {
             System.out.println("===============================================");
         }
 
+
+    }
+    public void bdFlag(){
+
     }
     public static void main(String[] args) {
         Amarican_Flag test = new Amarican_Flag();
