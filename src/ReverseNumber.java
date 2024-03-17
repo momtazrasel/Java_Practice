@@ -9,10 +9,19 @@ public class ReverseNumber {
         }
         System.out.println("reverse number is "+rev);
     }
+    public void reverseUsingForLoop(){
+        for (int i =0; x>i;i++){
+            rem = x%10;
+            rev = rev*10+rem;
+            x = x/10;
+        }
+        System.out.println("reverse number is "+rev);
+    }
 
     public static void main(String[] args) {
 
         ReverseNumber obj = new ReverseNumber();
         obj.reverseUsingWhile();
+        obj.reverseUsingForLoop();
     }
 }
