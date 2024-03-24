@@ -22,6 +22,9 @@ public class AutomorphicNumber {
         }else {
             System.out.println(num + " Number is not automorphic");
         }
+        for (int i=0; i<10; i++){
+            System.out.println("Automorphic");
+        }
     }
 
     public static void main(String[] args) {
