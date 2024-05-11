@@ -25,5 +25,11 @@ public class Dog {
     public static void main(String[] args) {
         Dog obj = new Dog("Laila", "Master");
         System.out.println(obj.getName());
+        System.out.println(obj.getBreed());
+
+        obj.setName("Buddy");
+        obj.setBreed("Daisy");
+        System.out.println(obj.getName());
+        System.out.println(obj.getBreed());
     }
 }
