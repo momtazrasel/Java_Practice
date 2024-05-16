@@ -1,12 +1,15 @@
+import java.util.ArrayList;
+
 public class Book {
     private String title;
     private String author;
     private String ISBN;
 
+    private static ArrayList <Book> bookCollection = new ArrayList<Book>();
     public Book(String title, String author, String ISBN){
         this.title = title;
         this.author = author;
-        this.author = author;
+        this.ISBN = ISBN;
 
     }
 
@@ -28,8 +31,8 @@ public class Book {
     public void setISBN(){
         this.title = title;
     }
-    public void addBook(){
-
+    public static void addBook(Book book){
+        bookCollection.add(book);
     }
 
     public void removeBook(){
