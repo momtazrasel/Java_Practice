@@ -42,5 +42,7 @@ public class Book {
     public static void main(String[] args) {
         Book obj = new Book("Himu","Humayon Ahmed" , "Bangla bajar");
         System.out.println(obj.getTitle());
+        Book.addBook(obj);
+        System.out.println(obj);
     }
 }
