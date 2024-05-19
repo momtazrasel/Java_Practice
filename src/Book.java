@@ -34,6 +34,9 @@ public class Book {
     public static void addBook(Book book){
         bookCollection.add(book);
     }
+    public static ArrayList <Book> getBookCollection(){
+        return bookCollection;
+    }
 
     public void removeBook(){
         
@@ -43,6 +46,12 @@ public class Book {
         Book obj = new Book("Himu","Humayon Ahmed" , "Bangla bajar");
         System.out.println(obj.getTitle());
         Book.addBook(obj);
-        System.out.println(obj);
+//        System.out.println(obj.addBook(obj));
+        ArrayList <Book> bookCollection = Book.getBookCollection();
+        System.out.println("Book Lists:");
+        for (Book book:bookCollection){
+            System.out.println(book.getTitle() + " by " + book.getAuthor() + " ISBN " + book.getISBN());
+        }
+
     }
 }
