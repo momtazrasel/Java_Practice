@@ -16,9 +16,9 @@ public class Book {
     public String getTitle(){
         return title;
     }
-    public void setTitle(){
-        this.title = title;
-    }
+//    public void setTitle(){
+//        this.title = title;
+//    }
     public String getAuthor(){
         return title;
     }
@@ -44,8 +44,10 @@ public class Book {
 
     public static void main(String[] args) {
         Book obj = new Book("Himu","Humayon Ahmed" , "Bangla bajar");
+        Book objOne = new Book("Himu Timu","Humayon Ahmed" , "Bangla bajar");
         System.out.println(obj.getTitle());
         Book.addBook(obj);
+        Book.addBook(objOne);
 //        System.out.println(obj.addBook(obj));
         ArrayList <Book> bookCollection = Book.getBookCollection();
         System.out.println("Book Lists:");
