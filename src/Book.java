@@ -1,9 +1,10 @@
 import java.util.ArrayList;
 
-public class Book {
+public class Book extends DateFormate{
     private String title;
     private String author;
     private String ISBN;
+    private static DateFormate date;
 
     private static ArrayList <Book> bookCollection = new ArrayList<Book>();
     public Book(String title, String author, String ISBN){
@@ -48,6 +49,7 @@ public class Book {
         System.out.println(obj.getTitle());
         Book.addBook(obj);
         Book.addBook(objOne);
+        date.getDateFormate();
 //        System.out.println(obj.addBook(obj));
         ArrayList <Book> bookCollection = Book.getBookCollection();
         System.out.println("Book Lists:");
