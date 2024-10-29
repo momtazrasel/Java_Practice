@@ -55,7 +55,7 @@ public class Book extends DateFormate{
         System.out.println("Book Lists:");
         for (Book book:bookCollection){
             System.out.println(book.getTitle() + " by " + book.getAuthor() + " ISBN " + book.getISBN());
-            System.out.println(book.getTitle() + " by " + book.getAuthor() + " ISBN " + book.getISBN());
+            
         }
 
     }
