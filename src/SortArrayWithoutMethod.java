@@ -5,8 +5,6 @@ public class SortArrayWithoutMethod {
         for (int x : arr){
             System.out.println(x);
         }
-        for(int y : arr.length){
 
-        }
     }
 }
