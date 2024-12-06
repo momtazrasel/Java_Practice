@@ -1,6 +1,21 @@
 import java.util.Scanner;
 
 public class ClassOne {
+
+    public void evenOrOddNum(){
+        Scanner input = new Scanner(System.in);
+        System.out.println("Input a number: - ");
+        int num = input.nextInt();
+
+        if (num%2 == 0){
+            System.out.println("Number is Even:-"+num);
+        }
+        else {
+            System.out.println("Number is Odd:- "+num);
+        }
+
+    }
+
     public void sumTwoDigit(int x, int y){
         int z = x+y;
         System.out.println("Total Sum:- "+z);
