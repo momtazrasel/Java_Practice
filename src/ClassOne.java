@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class ClassOne {
     public void sumTwoDigit(int x, int y){
         int z = x+y;
@@ -8,6 +10,13 @@ public class ClassOne {
         int z = x-y;
         System.out.println("Subtraction Number is:- "+z);
 
+    }
+
+    public void takeInput(){
+        Scanner input = new Scanner(System.in);
+        System.out.println("Please Take an Input");
+        int x = input.nextInt();
+        System.out.println("Input Number is:- "+x);
     }
 
     public static void main(String[] args) {
