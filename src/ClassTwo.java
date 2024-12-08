@@ -5,6 +5,7 @@ public class ClassTwo {
         ClassOne obj = new ClassOne();
         obj.sumTwoDigit(25,50);
         obj.evenOrOddNum();
+        obj.primeNumberCheck();
 //        obj.takeInput();
 
         obj.subtractionTwoDigit(25,15);

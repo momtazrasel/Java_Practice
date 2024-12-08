@@ -2,6 +2,16 @@ import java.util.Scanner;
 
 public class ClassOne {
 
+    public void primeNumberCheck(){
+        int num = 25;
+        if (num/num == 1 && num/1 == num){
+            System.out.println("number is prime");
+        }
+        else {
+            System.out.println("number is not prime");
+        }
+    }
+
     public void evenOrOddNum(){
         Scanner input = new Scanner(System.in);
         System.out.println("Input a number: - ");
