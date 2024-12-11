@@ -10,6 +10,10 @@ public class ClassOne {
         else {
             System.out.println("number is not prime");
         }
+
+        for (int x = 0; x>=100; --x){
+            System.out.println("Number:"+x);
+        }
     }
 
     public void evenOrOddNum(){
