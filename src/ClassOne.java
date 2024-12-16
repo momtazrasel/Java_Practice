@@ -14,6 +14,9 @@ public class ClassOne {
         for (int x = 0; x>=100; --x){
             System.out.println("Number:"+x);
         }
+        for(int y =0; y<=10; y++){
+
+        }
     }
 
     public void evenOrOddNum(){
